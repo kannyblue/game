@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+	<link rel="stylesheet" href="assets/css/lib/base.css">
+	<link rel="stylesheet" href="assets/css/lib/indexself.css">
+	<link rel="stylesheet" href="assets/css/game.css">
+	<title>消除类游戏</title>
+</head>
+<body>
+<div class="container main">
+<div class="pagebg"></div><!-- pagebg finished -->
+<div class="pagecontent">
+<div id="content">
+ <table id="top">
+ <tr>
+ <td colspan=2>&nbsp;&nbsp;历史最高分</td>
+ <td colspan=2 id="bestScore"></td>
+ <td colspan=3></td>
+ </tr>
+ <tr>
+ <td colspan=2>&nbsp;&nbsp;当前得分</td>
+ <td colspan=2 id="currentLevelScore"></td>
+ <td colspan=3></td>
+ </tr>
+ <tr>
+ <td>&nbsp;&nbsp;关卡</td>
+ <td id="currentLevel"></td>
+ <td colspan=1></td>
+ <td>目标</td>
+ <td id="targetScore"></td>
+ <td colspan=2></td>
+ </tr>
+ <tr>
+ <td>&nbsp;&nbsp;总分</td>
+ <td id="totalScore"></td>
+ <td colspan=1></td>
+ <td colspan=4 id="showMessage"></td>
+ </tr>
+ </table>
+ <table id="contenttab">
+ </table>
+ </div><!-- content finished -->
+ </div><!-- pagecontent finished -->
+ </div><!-- container finished -->
+<script src="assets/js/lib/jquery-2.1.3.min.js"></script>
+<script src="assets/js/lib/jquery.mobile-events.min.js"></script>
+<script src="assets/js/lib/jquery.self.adaption.js"></script>
+<script src="assets/js/game0.js"></script><!-- game0 -->	
+</body>
+</html>
